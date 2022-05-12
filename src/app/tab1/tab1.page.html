@@ -1,17 +1,37 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Flutos do mar
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <ion-searchbar animated>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  </ion-searchbar>
+<ion-item>
+  <ion-thumbnail slot="start">
+    <img src="https://media-cdn.tripadvisor.com/media/photo-s/14/58/7b/37/mix-de-frutos-do-mar.jpg">
+  </ion-thumbnail>
+  <ion-label>Porção de camarão e lagosta</ion-label>
+  <ion-badge color="medium">89,90</ion-badge>
+</ion-item>
+
+
+<ion-item>
+<ion-thumbnail slot="start">
+  <img src="https://ncultura.pt/wp-content/uploads/2020/10/cover-final-3ghedier.jpg">
+</ion-thumbnail>
+<ion-label>Peixe</ion-label>
+<ion-badge color="medium">50,00</ion-badge>
+</ion-item>
+
+<ion-item>
+  <ion-thumbnail slot="start">
+    <img src="https://www.comidaereceitas.com.br/wp-content/uploads/2015/08/lula_grelhada.jpg">
+  </ion-thumbnail>
+  <ion-label>lula ao molho grego</ion-label>
+  <ion-badge color="medium">80,99</ion-badge>
+  </ion-item>
 </ion-content>
